@@ -39,7 +39,7 @@ var produtos = {
         {
             nome: 'Pizza peperoni com queijo',
             foto: 'pizza_peperoni_com_queijo.jpg',
-            categoria: categorias[3],
+            categoria: categorias[2],
             preco: '19.65',
             favorito: true,
             descricao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
@@ -65,7 +65,7 @@ var produtos = {
         {
             nome: 'Pizza de peperoni com queijo e tomate',
             foto: 'pizza_peperoni_com_queijo_tomate.jpg',
-            categoria: categorias[3],
+            categoria: categorias[2],
             preco: '19.00',
             favorito: false,
             descricao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
@@ -92,7 +92,7 @@ var produtos = {
             nome: 'Pizza brotinho com queijo e tomate',
             foto: 'pizza_brotinho_com_queijo_tomate.jpg',
             preco: '12.00',
-            categoria: categorias[3],
+            categoria: categorias[2],
             favorito: true,
             descricao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
             comentarios: [
@@ -110,7 +110,7 @@ var produtos = {
             nome: 'Pizza de frango com catupiry',
             foto: 'pizza_frango_com_catupiry.jpg',
             preco: '23.00',
-            categoria:categorias[3],
+            categoria:categorias[2],
             favorito: false,
             descricao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
             comentarios: [
@@ -128,7 +128,7 @@ var produtos = {
             nome: 'Pizza portuguesa com queijo, molho de tomate, calabresa em rodelas, cebola, tomate picado, azeite, orégano e azeitona',
             foto: 'pizza_portuguesa.jpg',
             preco: 'R$ 31.90.',
-            categoria: categorias[3],
+            categoria: categorias[2],
             favorito: false,
             descricao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
             comentarios: [
@@ -146,7 +146,7 @@ var produtos = {
             nome: 'Coca-cola 2L',
             foto: 'coca_cola_2l.jpg',
             preco: '14.99.',
-            categoria: categorias[2],
+            categoria: categorias[1],
             favorito: false,
             descricao: 'Refrigerante Garrafa 3l\nEmbalagem Econômica',
             comentarios: [
@@ -164,7 +164,7 @@ var produtos = {
             nome: 'Cerveja Heineken',
             foto: 'cerveja_heineken.jpg',
             preco: '17.99',
-            categoria: categorias[2],
+            categoria: categorias[1],
             favorito: false,
             descricao: 'Cerveja em Garrafa 3l\nEmbalagem Econômica',
             comentarios: [
@@ -182,7 +182,7 @@ var produtos = {
             nome: 'Pudim de Leite Consensado',
             foto: 'pudim.jpg',
             preco: '22.04',
-            categoria: categorias[1],
+            categoria: categorias[0],
             favorito: false,
             descricao: 'Sobremesa tradicional\nPudim de leite condensado',
             comentarios: [
@@ -208,7 +208,7 @@ var produtos = {
             nome: 'Taça da felicidade',
             foto: 'taca_da_felicidade.jpg',
             preco: '12.04',
-            categoria: categorias[1],
+            categoria: categorias[0],
             favorito: false,
             descricao: 'Sobremesa tradicional\nTaças da felicidade de diversos tipos',
             comentarios: [
@@ -226,7 +226,7 @@ var produtos = {
             nome: 'Sorvetes diversos',
             foto: 'sorvete.jpg',
             preco: '13.60',
-            categoria: categorias[1],
+            categoria: categorias[0],
             favorito: false,
             descricao: 'Sorvete de casquinha\nSabores diversos',
             comentarios: [
@@ -246,5 +246,6 @@ var categorias=['sobremesas','bebidas','pizzas']
 
 module.exports = {
     perfil,
-    produtos
+    produtos,
+    categorias
 }
